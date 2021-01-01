@@ -1,0 +1,24 @@
+.header {
+    background-image: url(../../images/RegisterHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.RegisterHead {
+    width: 100%;
+    height: 21em;
+    background: linear-gradient(
+            135deg,
+            rgba(3, 169, 244, 0.6) 0,
+            rgba(167, 219, 216, 0.6) 44%,
+            rgba(243, 134, 48, 0.6) 100%
+        )
+        rgba(0, 0, 0, 0.2);
+        color:white;
+        text-align: center;
+        padding-top: 110px;
+        text-shadow: 1px 3px 5px black;
+        h1{
+            font-weight: 900;
+            font-size: 54px;
+        }
+}

@@ -1,0 +1,149 @@
+.header{
+  width: 100%;
+  height: 520px;
+  position: relative;
+  background-size: cover;
+  background-image: url(https://www.showaround.com/src/images/cdbcd1ae9e0b729a9b0395bfaa66b3ac.jpg);
+  &::before{
+      content: "";
+    background:linear-gradient(135deg,rgba(3,169,244,.35) 0,rgba(167,219,216,.35) 44%,rgba(243,134,48,.35) 100%) rgba(0,0,0,.15);
+    width: 100%;
+    height: 520px;
+    display: block;
+  }
+}
+.headtext{
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  color: white;
+  left: 0;
+  right: 0;
+}
+.u_center {
+  width: 100%;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.aboutme{
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 1em auto;
+  line-height: 1.5em;
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.698);
+}
+.skillpresent {
+  text-align: right;
+  margin-top: 50px;
+  position: absolute;
+  right: -50px;
+  top: -30px;
+}
+.skills {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.skill {
+  margin: 1em 0;
+  position: relative;
+
+  &__type {
+    color: black;
+    font-weight: 300;
+    font-size: 0.85rem;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+  }
+
+  &__outer_bar,
+  &__inner_bar {
+    height: 0.75em;
+  }
+
+  &__outer-bar {
+    background: #333;
+  }
+
+  &__inner_bar {
+    animation: fillBar 1s forwards;
+    background: #d87e18;
+    left: 5em;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+
+    &--100 {
+      width: 100%;
+    }
+
+    &--90 {
+      width: 90%;
+    }
+
+    &--80 {
+      width: 80%;
+    }
+  }
+}
+@keyframes fillBar {
+  to {
+    transform: scaleX(1);
+  }
+}
+.orangebox{
+  position: relative;
+  top: -100px;
+  width: 90%;
+  margin: auto;
+  min-height: 200px;
+  background-color: #f38630;
+  .storytitle{
+    text-align: center;
+    color:#532c0e;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 30px 0;
+  }
+  .storysubtitle{
+    padding: 0 110px;
+    font-size: 25px;
+    color: white;
+    line-height: 1.3;
+  }
+  .storytext{
+    padding: 20px 85px;
+    font-size: 16px;
+    color: white;
+    line-height: 1.3;
+  }
+}
+.countes{
+  display: flex;
+  .countbox{
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    p{
+      font-size: 15px;
+      margin-bottom: 0;
+    }
+    h6{
+      font-size: 30px;
+      font-weight: 900;
+    }
+  }
+}

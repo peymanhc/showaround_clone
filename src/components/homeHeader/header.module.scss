@@ -1,0 +1,134 @@
+.imageHeader {
+    position: relative;
+    background-image: url(../../images/homeHeader.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel{
+    width: 350px;
+    height: 360px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    h3{
+        font-size: 16px;
+        font-weight: 900;
+    }
+    p{
+        margin: auto;
+        font-size: 15px;
+        width: 180px;
+    }
+    .arrowicons{
+        font-size: 60px;
+        top: 30%;
+        position: absolute;
+    }
+    img{
+        margin: auto;
+        width: 250px !important;
+    }
+}
+.homehead {
+    height: 31em;
+    width: 100%;
+    background: linear-gradient(
+            135deg,
+            rgba(3, 169, 244, 0.35) 0,
+            rgba(167, 219, 216, 0.35) 44%,
+            rgba(243, 134, 48, 0.35) 100%
+        )
+        rgba(0, 0, 0, 0.15) no-repeat;
+    .HeadTitle {
+        padding-top: 1.8em;
+        font-weight: 900;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        font-size: 4em;
+        color: white;
+        letter-spacing: -1px;
+        margin-bottom: -15px;
+    }
+    .HeadSub {
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        font-size: 2.4em;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+    }
+}
+.SearchField {
+    input {
+        width: 60% !important;
+        height: 3.4em;
+        border: 0;
+    }
+    .searchbtn {
+        border: 0;
+        background: white;
+        height: 3.4em;
+        width: 3em;
+        color: rgba(102, 102, 102, 0.616);
+    }
+    .SearchField_button {
+        height: 3.6em;
+        right: 0;
+        border: 0;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 100%;
+        color: #fff;
+        background: #03a9f4;
+        &:hover{
+            background:rgb(0, 192, 240);
+        }
+    }
+}
+::placeholder {
+    color: rgba(102, 102, 102, 0.616);
+    opacity: 1;
+}
+
+.topDestinations,
+.topDestinations a {
+    margin-top: 1em;
+    color: white;
+    &:hover {
+        color: white;
+    }
+}
+.rightHead {
+    margin-left: 50px;
+    padding-top: 3.2em;
+    color: white;
+    .HowItWorks {
+        position: absolute;
+        width: 250px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .howworkcol {
+        display: none;
+    }
+    .titles {
+        text-align: center;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+@media screen and (max-width: 550px) {
+    .SearchField_button,
+    .topDestinations {
+        display: none;
+    }
+    .homehead {
+        height: 30em;
+        font-size: 0.8em !important;
+        .HeadTitle {
+            padding-top: 2em;
+        }
+    }
+}

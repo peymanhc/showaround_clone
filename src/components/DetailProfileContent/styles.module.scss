@@ -1,0 +1,40 @@
+.Profile_Content{
+    margin: 40px -20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    h5{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h6{
+        position: absolute;
+        right: 0;
+        top: 40px;
+        font-size: 30px;
+    }
+}
+.text {
+    font-size: 15px;
+    padding: 5px;
+    margin: 1em;
+    border-bottom: 1px solid #979a8736;
+    display: grid;
+    position: relative;
+    top: -10px;
+    height: 150px;
+    p {
+        font-size: 19px;
+        margin-left: 1.5em;
+        font-weight: 600;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:770px){
+    .Profile_Content{
+        display:none;
+    }
+}
