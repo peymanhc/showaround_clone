@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import styles from "./style.module.scss";
 const skills = [
+  { language: "Linux", skill: 60 },
+  { language: "TypeScript", skill: 85 },
+  { language: "PropTypes", skill: 95 },
   { language: "HTML", skill: 100 },
   { language: "CSS", skill: 100 },
   { language: "SCSS", skill: 95 },
@@ -11,29 +14,31 @@ const skills = [
   { language: "Formik", skill: 90 },
   { language: "React hook Form", skill: 75 },
   { language: "Enzyme", skill: 50 },
-  { language: "cypress", skill: 60 },
   { language: "jest", skill: 50 },
+  { language: "nextjs", skill: 50 },
   { language: "Reactjs", skill: 90 },
   { language: "Redux", skill: 80 },
+  { language: "React-intl", skill: 80 },
+  { language: "React-query", skill: 80 },
   { language: "Redux Persist", skill: 60 },
   { language: "Redux Thunk", skill: 80 },
   { language: "Redux Saga", skill: 85 },
-  { language: "Materialui", skill: 90 },
+  { language: "Materialui", skill: 100 },
   { language: "ReactStrap", skill: 90 },
   { language: "ReactBootStrap", skill: 100 },
   { language: "AntDesign", skill: 40 },
-  { language: "StyledComponents", skill: 50 },
-  { language: "Materialuistyles", skill: 70 },
-  { language: "git", skill: 70 },
+  { language: "Tailwind", skill: 90 },
+  { language: "StyledComponents", skill: 100 },
+  { language: "Materialuistyles", skill: 100 },
+  { language: "git", skill: 90 },
   { language: "ReactTooltip", skill: 80 },
   { language: "graphql", skill: 40 },
-  { language: "nextjs", skill: 30 },
-  { language: "Draftjs", skill: 70 },
+  { language: "Draftjs", skill: 60 },
 ];
 function Aboutme() {
-  useEffect(()=>{
-    window.scroll(0,0)
-  })
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <div>
       <div className={styles.header}>
