@@ -13,13 +13,11 @@ Open [http://localhost:1379](http://localhost:1379) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm run build`
+### `preview`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![1](https://user-images.githubusercontent.com/47552585/103453126-f10b3080-4ceb-11eb-9321-0b76ee9865e5.png)
+![2](https://user-images.githubusercontent.com/47552585/103453139-0aac7800-4cec-11eb-8733-2e310b5736ac.png)
+![3](https://user-images.githubusercontent.com/47552585/103453146-16983a00-4cec-11eb-933c-0aeec0c5c9d3.png)
+![4](https://user-images.githubusercontent.com/47552585/103453155-24e65600-4cec-11eb-9608-64b6e9745677.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+And a few other cases ....
