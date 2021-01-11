@@ -394,6 +394,7 @@
       "email": "test",
       "password": "1111",
       "id": 10
+<<<<<<< HEAD
     },
     {
       "token": "token",
@@ -430,6 +431,8 @@
       "email": "Admin@gmail.com",
       "password": "Admin123",
       "id": 16
+=======
+>>>>>>> 8fc5046d7c4684556d8a7628141f6650dbde34e1
     }
   ],
   "Trips": [

@@ -62,11 +62,14 @@ const useStyles = makeStyles({
     border: "1px solid #d87e18",
     color: "#d87e18",
   },
+<<<<<<< HEAD
   defaultlog:{
     textAlign:"center",
     fontSize:12,
     fontWeight:700
   }
+=======
+>>>>>>> 8fc5046d7c4684556d8a7628141f6650dbde34e1
 });
 
 interface Props {
@@ -123,7 +126,10 @@ const Login: React.FC<Props> = ({ showModal }) => {
             type="email"
             placeholder="Email"
           />
+<<<<<<< HEAD
           <span className={classes.defaultlog} >email: Admin@gmail.com</span>
+=======
+>>>>>>> 8fc5046d7c4684556d8a7628141f6650dbde34e1
           <input
             ref={register({ required: true })}
             id="password"
@@ -132,7 +138,10 @@ const Login: React.FC<Props> = ({ showModal }) => {
             type="password"
             placeholder="password"
           />
+<<<<<<< HEAD
           <span className={classes.defaultlog} >Admin123</span>
+=======
+>>>>>>> 8fc5046d7c4684556d8a7628141f6650dbde34e1
         </Modal.Body>
         <Modal.Footer>
           <Button variant="danger" onClick={handleClose}>
