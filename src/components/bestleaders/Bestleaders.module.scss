@@ -1,0 +1,134 @@
+.title {
+  margin: 2em auto;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  line-height: 0;
+  h3 {
+    font-size: 35px;
+    font-weight: 900;
+  }
+  small {
+    font-size: 15px;
+    color: gray;
+  }
+}
+.card {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  background: white;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.247);
+  .cardimg {
+    z-index: 1;
+    background: linear-gradient(
+        135deg,
+        rgba(3, 169, 244, 0.3) 0,
+        rgba(167, 219, 216, 0.3) 38%,
+        rgba(243, 134, 48, 0.3) 100%
+      )
+      rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    cursor: pointer;
+    &:hover {
+      background: linear-gradient(
+          135deg,
+          rgba(0, 174, 255, 0.288) 0,
+          rgba(145, 214, 211, 0.425) 38%,
+          rgba(230, 135, 63, 0.384) 100%
+        )
+        rgba(0, 0, 0, 0.5);
+    }
+    img {
+      margin-top: 10px !important;
+      z-index: 1;
+      width: 160px;
+      height: 160px;
+      background-size: cover;
+      object-fit: cover;
+      border-radius: 100%;
+      margin: auto;
+      border: 3px outset white;
+    }
+    h4 {
+      display: flex;
+      position: absolute;
+      right: 0;
+      line-height: 10px;
+      margin-right: 15px;
+      background: rgba(3, 169, 244, 0.7);
+      color: white;
+      width: 65px;
+      height: 30px;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 18px;
+      border-bottom-left-radius: 4px;
+      border-top-left-radius: 4px;
+      z-index: 2;
+    }
+  }
+  .bgimg{
+    content: "";
+    position: absolute;
+    background-image: url("https://showaroundoriginal.imgix.net/places/ChIJBUVa4U7P1EAR_kYBF9IxSXYpyg2e.jpg?w=380&h=240&dpr=1&q=60&rect=257,0,887,560");
+    width: 100%;
+    height: 220px;
+    opacity: 0.2;
+  }
+  .text {
+    padding: 20px 40px;
+    text-align: left;
+    font-size: 14px;
+    height: 105px;
+    color: gray;
+    overflow: hidden;
+    p::after {
+      background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 55px,
+        #fff 83px
+      );
+    }
+  }
+}
+.test {
+  height: 95px;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 55px,
+    #fff 83px
+  );
+  margin-top: -84px;
+  z-index: 9999;
+  position: relative;
+}
+.Name {
+  z-index: 1;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  line-height: 5px;
+  margin: auto;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  h6 {
+    font-size: 16px;
+    font-weight: 900;
+  }
+}
+.phonenumber {
+  text-shadow: 1px 4px 1px rgba(0, 0, 0, 0.171);
+  color: rgb(70, 70, 70);
+  margin-top: -1em;
+  text-align: center;
+}

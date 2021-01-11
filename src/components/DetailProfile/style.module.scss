@@ -1,0 +1,25 @@
+@media screen and (max-width: 770px) {
+    .Card {
+        display: block;
+        background: white;
+        width: 100%;
+        height: 160px;
+        border: 1px solid transparent;
+        .cardDetail{
+            color:black !important;
+            width: 100%;
+            p{
+                color:black;
+                font-size: 17px;
+                padding-right: 50px;
+                height: 45px;
+                left: 0;
+            }
+        }
+    }
+}
+@media screen and (min-width: 771px) {
+    .Card{
+        display: none;
+    }
+}
